@@ -151,14 +151,12 @@ function Navbar() {
         </Link>
         <Link
           href="/contact-us"
-          onClick={() => scrollTo(0, 2800)}
           className="hover:text-zinc-500 text-zinc-600 dark:text-zinc-200 dark:hover:text-zinc-100"
         >
           Contact Us
         </Link>
         <Link
           href="/pricing-plan"
-          onClick={() => scrollTo(0, 3600)}
           className="text-orange-700 dark:text-orange-400 hover:border-b-2 hover:pt-1 dark:hover:border-b-2 dark:hover:pt-1 border-orange-400"
         >
           Subscribe+
