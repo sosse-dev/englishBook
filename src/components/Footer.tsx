@@ -21,7 +21,7 @@ function Footer() {
           >
             <Image
               src="/instagram.png"
-              title="icon by icons8"
+              title="Instagram by icons8"
               width={30}
               height={30}
               className="w-full h-full object-cover"
@@ -35,7 +35,7 @@ function Footer() {
           >
             <Image
               src="/whatsapp.png"
-              title="icon by icons8"
+              title="Whatsapp by icons8"
               width={30}
               height={30}
               className="w-full h-full object-cover"
@@ -49,7 +49,7 @@ function Footer() {
           >
             <Image
               src="/facebook.png"
-              title="icon by icons8"
+              title="Facebook by icons8"
               width={30}
               height={30}
               className="w-full h-full object-cover"
