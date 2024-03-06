@@ -2,8 +2,8 @@
 import { AnimatePresence, LazyMotion, domAnimation, m } from "framer-motion";
 import { useState } from "react";
 import { useTheme } from "next-themes";
-import Link from "next/link";
 import Image from "next/image";
+import Link from "next/link";
 
 function Navbar() {
   const [openNavMb, setOpenNavMb] = useState(false);
@@ -27,16 +27,16 @@ function Navbar() {
           {theme === "dark" ? (
             <Image
               src="/moon-icon.gif"
-              title="icon by icons8"
+              title="moon-icon by icons8"
               width={48}
               height={48}
               className="w-[3rem] h-[3rem] object-contain rounded-full"
-              alt="sun-icon"
+              alt="moon-icon"
             />
           ) : (
             <Image
               src="/sun-icon.gif"
-              title="icon by icons8"
+              title="sun-icon by icons8"
               width={48}
               height={48}
               className="w-[3rem] h-[3rem] object-contain rounded-full"
@@ -82,22 +82,24 @@ function Navbar() {
               >
                 Home
               </Link>
-              <button
+              <Link
+                href="/contact-us"
                 onClick={() => {
-                  scrollTo(0, 3600), setOpenNavMb(!openNavMb);
+                  setOpenNavMb(!openNavMb);
                 }}
                 className="w-full h-[6rem] flex items-center text-left text-2xl pl-8 text-zinc-500 dark:text-zinc-300"
               >
                 Contact Us
-              </button>
-              <button
+              </Link>
+              <Link
+                href="/pricing-plan"
                 onClick={() => {
-                  scrollTo(0, 4400), setOpenNavMb(!openNavMb);
+                  setOpenNavMb(!openNavMb);
                 }}
                 className="w-full h-[6rem] flex items-center text-left text-2xl pl-8 text-orange-600 dark:text-orange-300"
               >
                 Subscribe+
-              </button>
+              </Link>
               <Link
                 href="/register"
                 onClick={() => setOpenNavMb(!openNavMb)}
@@ -124,16 +126,16 @@ function Navbar() {
           {theme === "dark" ? (
             <Image
               src="/moon-icon.gif"
-              title="icon by icons8"
+              title="moon-icon by icons8"
               width={50}
               height={50}
               className="w-[3rem] h-[3rem] object-contain rounded-full"
-              alt="sun-icon"
+              alt="moon-icon"
             />
           ) : (
             <Image
               src="/sun-icon.gif"
-              title="icon by icons8"
+              title="sun-icon by icons8"
               width={50}
               height={50}
               className="w-[3rem] h-[3rem] object-contain rounded-full"
@@ -147,18 +149,20 @@ function Navbar() {
         >
           Home
         </Link>
-        <button
+        <Link
+          href="/contact-us"
           onClick={() => scrollTo(0, 2800)}
           className="hover:text-zinc-500 text-zinc-600 dark:text-zinc-200 dark:hover:text-zinc-100"
         >
           Contact Us
-        </button>
-        <button
+        </Link>
+        <Link
+          href="/pricing-plan"
           onClick={() => scrollTo(0, 3600)}
           className="text-orange-700 dark:text-orange-400 hover:border-b-2 hover:pt-1 dark:hover:border-b-2 dark:hover:pt-1 border-orange-400"
         >
           Subscribe+
-        </button>
+        </Link>
         <Link
           href="/register"
           className="w-fit h-fit dark:bg-slate-500 bg-slate-400 text-zinc-100 hover:bg-slate-500 transition-all px-4 py-2 rounded-full"
