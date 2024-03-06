@@ -31,7 +31,7 @@ function Register() {
           </p>
         </button>
         <div className="flex mt-3">
-          <p className=" text-sm text-slate-200">already have an account?</p>
+          <p className=" text-sm text-slate-200">have an account already?</p>
           <Link
             href="/login"
             className="relative text-blue-300 hover:underline text-sm pl-2"
