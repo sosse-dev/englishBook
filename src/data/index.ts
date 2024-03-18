@@ -8,9 +8,7 @@ type TmainData = {
   desc: string;
   comment: {
     title: string;
-    comment1: string;
     sendedBy1: string;
-    comment2: string;
     sendedBy2: string;
   };
   infoContact: {
@@ -20,8 +18,8 @@ type TmainData = {
 };
 
 export const headerData: TheaderData = {
-  title: "Hello Mom!",
-  desc: "english web mom provide many ways fun to learn grammar, pronounciation, speaking, writing, even vocabularies. we formed this web in order to reach people wider to learn english langguage at ease. Many expreienced teacher have been joining us and willing to help student from kids, teen up until old people who are still eager to learn english more..!",
+  title: "Book",
+  desc: "providing many ways fun to learn grammar, pronounciation, speaking, writing, even vocabularies. we formed this web in order to reach people wider to learn english langguage at ease. Many expreienced teacher have been joining us and willing to help student from kids, teen up until old people who are still eager to learn english more..!",
 };
 
 export const mainData: TmainData = {
@@ -29,11 +27,7 @@ export const mainData: TmainData = {
   desc: "Experience a more effective and efficient English learning experience with video, audio, text and interactive excercises",
   comment: {
     title: "Our Subcribers!!",
-    comment1:
-      "This website is beautiful and simple, thanks for making this website for english learner like me, even though it's just website for someone's portofolio.",
     sendedBy1: "Anonymous",
-    comment2:
-      "Dengan sederhana website ini cantik tidak banyak animasi tapi tetap kelihatan bagus. Ngomong-ngomong, ini website hanya untuk showcase personal project not the real website to learn english.",
     sendedBy2: "Anonymous",
   },
   infoContact: {

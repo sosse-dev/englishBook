@@ -23,7 +23,7 @@ function Header() {
         </h2>
         <p className="md:max-w-[43rem] text-lg text-zinc-900 dark:text-zinc-400">
           <span className="text-amber-950 dark:text-zinc-300 font-semibold pr-1">
-            Learn English the fun way with English Hello Mom!
+            Learn English the fun way with us!
           </span>
 
           {headerData.desc}

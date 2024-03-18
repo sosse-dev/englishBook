@@ -16,7 +16,7 @@ function Navbar() {
           className="px-12 py-3 text-xl md:text-xl max-[400px]:hidden md:hidden lg:block text-zinc-500 flex border-2 border-zinc-500 rounded-full dark:text-zinc-300 dark:border-zinc-300"
         >
           <code className="text-green-700 dark:text-green-300">eng</code>
-          HelloMom
+          Book
         </Link>
       </div>
       <div className="flex items-center">

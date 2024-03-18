@@ -7,7 +7,7 @@ function Footer() {
       <div className="w-fit h-fit py-6 px-4 mb-10 lg:pr-24">
         <h2 className="text-3xl text-zinc-200">
           <code className="text-green-500 dark:text-green-300">eng</code>
-          HelloMom
+          Book
         </h2>
         <p className=" dark:text-zinc-300 text-zinc-400">
           Learn english fast, grab yours today!

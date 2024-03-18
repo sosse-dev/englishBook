@@ -4,8 +4,8 @@ import Navbar from "@/components/Navbar";
 import Providers from "./provider";
 
 export const metadata: Metadata = {
-  title: "engHelloMom",
-  description: "Learn english with engHelloMom!",
+  title: "englishBook",
+  description: "Learn english with englishBook",
 };
 
 export default function RootLayout({
