@@ -45,9 +45,9 @@ function Main() {
                 />
               </div>
               <p className="text-zinc-700 dark:text-zinc-200 text-lg">
-                {mainData.comment.comment1}
+                Lorcing elit. Iure sint repellendus natus perspiciatis, architecto sapiente qui mollitia est maiores, laborum non consequa si velit assumen djoskd jok sf
               </p>
-              <p className="self-end text-zinc-600 dark:text-zinc-300">
+              <p className="self-end text-zinc-600 dark:text-zinc-300 mt-4">
                 -{mainData.comment.sendedBy1}
               </p>
             </div>
@@ -64,9 +64,9 @@ function Main() {
                 />
               </div>
               <p className="text-zinc-50 text-lg">
-                {mainData.comment.comment2}
+                or sit amet consectetur adipisicing elit. Incidunt cumque illo nostrum ab eos, dolorum dicta soluta porro sint quas ullam laborum hic delectus mollitia quae
               </p>
-              <p className="self-end text-zinc-50">
+              <p className="self-end text-zinc-50 mt-4">
                 -{mainData.comment.sendedBy2}
               </p>
             </div>
